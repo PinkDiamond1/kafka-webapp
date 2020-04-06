@@ -1,0 +1,66 @@
+@font-face {
+	font-family: "Mark OT Bold";
+	src: url("/assets/fonts/MarkOT-Bold.woff2");
+}
+
+@font-face {
+	font-family: "Mark OT";
+	src: url("/assets/fonts/MarkOT.woff2");
+}
+
+body {
+	background-color: #E6F5FB;
+	font-family: "Mark OT";
+	margin: 10%;
+}
+
+h1 {
+	font-family: "Mark OT Bold";
+	color: #173361;
+}
+
+img.logo-result {
+	border-style: solid;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+img.logo-option {
+	border-style: solid;
+	width: 30%;
+	margin-left: 9%;
+	margin-right: 9%;
+}
+
+img#new {
+	border-color: #173361;
+}
+
+img#old {
+	border-color: #499EC5;
+}
+
+a {
+	font-weight: bold;
+}
+
+a:link {
+	color: #66CC69;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #66CC69;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #D8365D;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #D8365D;
+	text-decoration: none;
+}
